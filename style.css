@@ -3,3 +3,108 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+* {
+  color: #553100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+.header {
+    background-color: #FFDBAA;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 25px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+
+body {
+    background-color: #D4A76A;
+    color: white;
+    font-size: 15px;
+  }
+
+  .button1 {
+    background-color: #805215; 
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:40px;
+    margin-right:25px;
+  }
+
+  .button2 {
+    background-color: #805215; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: center;
+    width: 99%;
+    outline: 2px solid #1C6EA4;
+    outline-offset: 0px;
+  }
+
+  .button3 {
+    background-color: #FFDBAA;
+    width: 400px;
+    height: 50px;
+    visibility: hidden;
+  }
+  
+  .fancy {
+    background-color: white;
+    width: 380px;
+    height: 180px;
+    margin: 25px;
+    margin-left: 30px;
+    padding: 10px;
+    border-width: 10px;
+
+    -webkit-box-shadow: -1px -1px 40px 0px rgba(0,0,0,0.45); 
+    box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.45);
+  }
+
+  .fancy h2 {
+    text-align: center;
+  }
+
+  .fancy2 {
+    background-color: white;
+    width: 1450px;
+    height: 220px;
+    margin: auto;
+    padding: 25px;
+    border-width: 10px;
+    top: 20px;
+    position: relative;
+    clear: left;
+
+    -webkit-box-shadow: -1px -1px 40px 0px rgba(0,0,0,0.45); 
+    box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.45);
+    
+  }
+
+  .fancy2 h2 {
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
